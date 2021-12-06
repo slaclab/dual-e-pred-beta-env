@@ -1,0 +1,12 @@
+name: dual-e-pred-beta-env
+channels:
+  - conda-forge
+dependencies:
+  - python=3.8
+  - pytao
+  - matplotlib
+  - pyepics
+  - pandas
+  - pip
+  - pip: 
+    - git+https://github.com/slaclab/lcls-live.git@v0.2.0
