@@ -7,7 +7,7 @@ dependencies:
   - matplotlib
   - pyepics
   - pandas
-  - bmad
+  - bmad==20211221.0
   - pip
   - pip: 
     - git+https://github.com/slaclab/lcls-live.git@v0.2.0
